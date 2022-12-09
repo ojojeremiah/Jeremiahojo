@@ -1,0 +1,1166 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(white 85%, #c5c5c5);
+    font-family: sans-serif;
+}
+.scroll{
+    background-color: white;
+    height: 4vh;
+    width: 2vw;
+    border-radius: 50%;
+    margin-left: 90vw;
+    transition: all .4s;
+    position: fixed;
+}
+.scroll.active{
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.scroll img{
+    height: 30px;
+    margin-left: 8px;
+    margin-top: 5px;
+    rotate: 180deg;
+}
+/* nav*/
+.Bars{
+    border: 10px;
+    height: 3vh;
+    background-color: #2c5597;
+    float: left;
+    padding: 10px 10px;
+    visibility: hidden;
+}    
+.Bars li{
+    border: solid;
+    color: white;
+    border-radius: 15px;
+    width: 1vw;
+    background-color: white;
+    padding: 0px 10px;
+    margin-bottom: 5px;
+    height: 0px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right:70px;
+    position: fixed;
+    margin-top: -14vh;
+    background-color: white;
+    width: 100vw;
+    overflow: hidden;
+}
+nav h2{
+    color: #2c5597;
+}
+nav ul{
+    display: flex;
+    margin-left: 20vw;
+}
+nav li{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    list-style: none;
+}
+.btns{
+    margin-left: 15vw;
+    margin-right: 10vw;
+    display: flex;
+}
+.btn1{
+    padding: 14px 50px;
+    border-style: none;
+    border-radius: 5px;
+    margin-right: 50px;
+    width: 10vw;
+    height: 5vh;
+}
+.btn1 a{
+    text-decoration: none;
+    color: black;
+}
+.btn2{
+    padding: 14px 50px;
+    border: 1px solid;
+    background-color: #2c5597;
+    border-radius: 5px;
+    color: #ffff;
+    width: 10vw;
+    height: 5vh;
+}
+.btn2 a{
+    text-decoration: none;
+    color: black;
+}
+/* Heading **/
+
+.container{
+    display: flex;
+    margin-left: 83px;
+    margin-top: 126px;
+
+}
+
+.header{
+    margin-right: 65px;
+    margin-left: 92px;
+    margin-top: 85px;
+}
+
+ .header h1{
+    width: 580px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+span{
+    color: #2c5597;
+}
+.header p {
+    color: #A2A2A2;
+    font-size: 18px;
+    font-weight: 400px;
+    width: 383px;
+    line-height: 26px;
+}
+
+.bottom input{
+    padding: 14px 35px;
+    border: none;
+    background-color: #eceaea;
+    border-radius: 5px;
+}
+
+.bottom button{
+    padding: 14px 35px;
+    background-color: #2c5597;
+    color: #ffff;
+    border-radius: 5px;
+    border-style: none;
+}
+.img1{
+    margin: left 65px;;
+    width: 598px;
+}
+
+/*Sales chart ***/
+
+.sales{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.buy{
+    border: 80px;
+    background-color: white;
+    box-shadow:0px 0px  10px 10px #f3f3f3;
+    height:400px;
+    width:400px;
+    border-radius:5px;
+    margin-top: 80px;
+    margin-right: 80px;
+    text-indent: 5%;
+    line-height: 30px;
+}
+.buys{
+    text-align: center;
+    margin-right:50px;
+}
+.buy1{
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #e6e4e4;
+    border-radius: 5px;
+    float: left;
+    width:375px;
+    margin-left: 10px;
+}
+.buy2{
+    margin-top: 25px;
+    color: #A2A2A2;
+}
+.buy3{
+    text-align: left;
+}
+.buy input{
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #e6e4e4;
+    border-radius: 5px;
+    float: left;
+    width:350px;
+    margin-left: 10px;
+}
+.buy4{
+    margin-top: 10px;
+    padding: 5px 5px;
+    border: none;
+    background-color: #e6e4e4;
+    border-radius: 5px;
+    float: left;
+    margin-left: -80px;
+    margin-top: 15px;
+}
+.buy button{
+    padding: 10px 15px;
+    width: 350px;
+    margin-left: 25px;
+    border: none;
+    background-color: #33b433;
+    color: white;
+    border-radius: 5px;
+}
+.BTC{
+    color: grey;
+}
+.buy5{
+    color: grey;
+}
+
+.sells{
+    border: 80px;
+    background-color: white;
+    box-shadow:0px 0px  10px 10px #f3f3f3;
+    height:400px;
+    width:400px;
+    border-radius:5px;
+    margin-top: 80px;
+    margin-right: 80px;
+    text-indent: 5%;
+    line-height: 30px;
+}
+.sells input{
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #e6e4e4;
+    border-radius: 5px;
+    float: left;
+    width:350px;
+    margin-left: 10px;
+}
+.sells button{
+    padding: 10px 15px;
+    width: 350px;
+    margin-left: 25px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+.receive{
+   margin-top: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+.r1{
+    color:#2c5597;
+    text-decoration: none;
+}
+.vendor{
+    text-align: center;
+    margin-top: 50px;
+}
+.Vendors{
+    display:  flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px 35px;
+}
+.box1{
+    height: 260px;
+    width: 350px;
+    border: 90px;
+    background-color: white;
+    box-shadow:0px 0px  10px 10px #f3f3f3;
+    padding: 10px 35px;
+    margin-right: 70px;
+    border-radius: 5px;
+}
+.box1 button{
+    padding: 10px 15px;
+    width: 350px;
+    border: none;
+    background-color: rgb(51, 180, 51);
+    color: white;
+    border-radius: 5px;
+}
+.box1 h3{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.point{
+    float: right;
+    color:rgb(77, 150, 77);
+    margin-top: -40px;
+    font-weight: bold;
+}
+.point1{
+    float: right;
+    color: red;
+    margin-top: -40px;
+    font-weight: bold;
+}
+
+.box2{
+    height: 260px;
+    width: 350px;
+    border: 90px;
+    background-color: white;
+    box-shadow:0px 0px  10px 10px #f3f3f3;
+    padding: 10px 35px;
+    margin-right: 70px;
+    border-radius: 5px;   
+}
+.box2 button{
+    padding: 10px 15px;
+    width: 350px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+.box2 h3{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+/* Form ****/
+
+.load{
+    padding: 15px 15px;
+    font-weight: bold;
+    margin-top: 3%;
+    width: 500px;
+    border: none;
+    margin-left: 35%;
+    border-radius: 5px;
+    color: #2c5597;
+    background-color: rgb(218, 218, 230);
+    cursor: pointer;
+}
+.link{
+    color: grey;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    margin-right: 5%;
+}
+.link a{
+    color: #2c5597;
+    text-decoration: none;
+}
+.bars{
+    border: 100%;
+    background-color: #2c5597;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-weight: bolder;
+    padding: 30px;
+    font-size: x-large;
+    justify-content: space-around;
+}
+.bars p{
+    margin-top: 5%;
+    text-align: center;
+    margin-left: -30%;
+}
+.bit{
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 3%;
+}
+.users{
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+    margin-right: 30px;
+    align-items: center;
+}
+.user{
+    border: 200px;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow:5px 5px  10px 10px #f3f3f3;
+    font-size: large;
+    border-radius: 5px;
+    font-weight: 300;
+    width: 250px;
+    height: 300px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 3%;
+}
+.user p{
+    width: 200px;
+}
+
+/*earn *****/
+
+.earn{
+    border: 100vw;
+    background-color: #eeeefc;;
+    display: flex;
+    flex-direction: row;
+    font-weight: bolder;
+    padding: 50px;
+    margin-top: 3%;
+}
+.earn h1{
+    color: #2c5597;
+    
+    font-size: 50px;
+    font-weight: bold;
+    width: 800px;
+ 
+}
+
+
+.earn p{
+    color:grey ;
+    width:27.4vw;
+  
+}
+.earn a{
+   
+    color: #2c5597;
+    text-decoration: none;
+}
+.earn button{
+    margin-top: 30px;
+    border: none;
+    width: 250px;
+    padding: 10px 10px;
+    color: white;
+    background-color: #2c5597;
+    border-radius: 5px;
+    display: block;
+    
+}
+.earn img{
+    margin-left: 15vw;
+    text-align: center;
+    margin-right: 8vw;
+}
+
+/*black box ******/
+.Download{
+    
+    border: 30%;
+    width: 1000px;
+    height: 300px;
+    background-color: black;
+    color: white !important;
+    margin-left: 20vw;
+    border-radius: 10px;
+    margin-top: 5vh;
+    padding: 100px 20px;
+    line-height: 3vh;
+    display: flex;
+    visibility: hidden;
+}
+
+.left{
+    margin-left: 20px;
+}
+
+.right{
+    margin-left: 135px;
+    margin-top: -50px;
+}
+
+
+.cta1{
+    display: flex;
+}
+
+.cta2{
+    display: flex;
+}
+
+.Download h1{
+    margin-top: -2%;
+    width: 465px;
+    margin-right: 100%;
+    font-size: 32px;
+}
+Download h3{
+    margin: 0;
+    font-size: 12px; 
+}
+
+.logo1{
+    width: 25px;
+    padding-top: 12px;
+    display: flex;
+    color: white;
+}
+
+.logo2{
+    width: 20px;
+    padding: 8px;
+    display: flex;
+}
+
+.cta-btn1{
+    display: flex;
+    margin-right: 10px;
+    margin-left: 4px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: #3333336c;
+    margin-bottom: 10px;
+    
+    
+}
+.cta-btn2{
+    width: px;
+    display: flex;
+    padding: 5px 30px;
+    background-color: #3333336c;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: white;
+ 
+}
+
+.profile-info{
+    color:white;
+}
+
+.info{
+    margin-left: -40px;
+}
+.profile-info h3{
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+.profile-info p{
+    margin-bottom: 0px;
+    font-size: 11px;
+   
+}
+
+
+.app{
+    margin-top: px;
+    height: 450px;
+    
+    
+}
+
+/* Footer *******/
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.Company a{
+    display: block;
+    text-decoration: none;
+    color: #a19f9f;
+    line-height: 40px;
+}
+.learn a{
+    display: block;
+    text-decoration: none;
+    color: #a19f9f;
+    line-height: 40px;
+}
+.learn p{
+    color: #a19f9f;
+}
+.Contact a{
+    display: block;
+    text-decoration: none;
+    color: #a19f9f;
+    line-height: 40px;
+}
+.others h3{
+    color: #2c5597;
+    font-weight: bold;
+}
+.others p{
+    color: #a19f9f;
+    margin-bottom: 0px;
+}
+.others select{
+    padding: 10px 10px;
+    border: none;
+    background-color: #e6e1e1;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 150px;
+}
+.learn select{
+    padding: 10px 10px;
+    border: none;
+    background-color: #e6e1e1;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100px;
+}
+@media (max-width: 1028px) and (min-width: 830px) {
+    body{
+        width: 100%;
+        font-size: 20px;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 20px;
+        padding-left: 70px;
+        padding-right:70px;
+        position: fixed;
+        margin-top: -17vh;
+        background-color: white;
+        width: 100%
+    }
+    .btn1{
+        padding: 14px 50px;
+        border-style: none;
+        border-radius: 5px;
+        margin-right: 50px;
+        width: 15vw;
+        height: 5vh;
+    }
+    
+    .btn2{
+        padding: 14px 50px;
+        border: 1px solid;
+        background-color: #2c5597;
+        border-radius: 5px;
+        color: #ffff;
+        width: 18vw;
+        height: 5vh;
+    }
+    .sales{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 45vw;
+    }
+    .buy{
+        border: 80px;
+        background-color: white;
+        box-shadow:5px 5px  10px 3px #f3f3f3;
+        height:450px;
+        width:500px;
+        border-radius:5px;
+        margin-top: 80px;
+        margin-right: 80px;
+        text-indent: 5%;
+        line-height: 30px;
+    }
+    .sells{
+        border: 80px;
+        background-color: white;
+        box-shadow:5px 5px  10px 3px #f3f3f3;
+        height:450px;
+        width:450px;
+        border-radius:5px;
+        margin-top: 80px;
+        margin-right: 80px;
+        text-indent: 5%;
+        line-height: 30px;
+    }
+    .buy input{
+        margin-top: 10px;
+        padding: 10px 15px;
+        border: none;
+        background-color: #e6e4e4;
+        border-radius: 5px;
+        float: left;
+        width:320px;
+        margin-left: 10px;
+    }
+    .sells input{
+        margin-top: 10px;
+        padding: 10px 15px;
+        border: none;
+        background-color: #e6e4e4;
+        border-radius: 5px;
+        float: left;
+        width:320px;
+        margin-left: 10px;
+    }
+    .buy1{
+        margin-top: 10px;
+        padding: 10px 15px;
+        border: none;
+        background-color: #e6e4e4;
+        border-radius: 5px;
+        float: left;
+        width:350px;
+        margin-left: 10px;
+    }
+    .buy button{
+        padding: 10px 15px;
+        width: 350px;
+        border: none;
+        background-color: #33b433;
+        color: white;
+        border-radius: 5px;
+        margin-right: 20px;
+    }
+    .sells button{
+        padding: 10px 15px;
+        width: 350px;
+        border: none;
+        background-color: red;
+        color: white;
+        margin-right: 20px;
+        border-radius: 5px;
+    }
+    .receive{
+        margin-top: 50px;
+       font-weight: bold;
+       margin-left: 27vw;
+    }
+    .vendor{
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 30vw;
+    }
+    .Vendors{
+        display:  flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 30px 35px;
+        margin-left: 47vw;
+    }
+    .box1{
+        height: 300px;
+        width: 350px;
+        border: 90px;
+        background-color: white;
+        box-shadow:5px 5px  10px 3px #f3f3f3;
+        padding: 10px 35px;
+        margin-right: 70px;
+        border-radius: 5px;
+    }
+    .box2{
+        height: 300px;
+        width: 350px;
+        border: 90px;
+        background-color: white;
+        box-shadow:5px 5px  10px 3px #f3f3f3;
+        padding: 10px 35px;
+        margin-right: 70px;
+        border-radius: 5px;   
+    }
+    .load{
+        padding: 15px 15px;
+        font-weight: bold;
+        margin-top: 3%;
+        width: 500px;
+        border: none;
+        margin-left: 40%;
+        border-radius: 5px;
+        color: #2c5597;
+        background-color: rgb(218, 218, 230);
+        cursor: pointer;
+    }
+    .link{
+        color: grey;
+        text-align: center;
+        font-weight: bold;
+        font-size: x-large;
+        margin-left: 35vw;
+    }
+    .bars{
+        background-color: #2c5597;
+        display: flex;
+        flex-direction: row;
+        color: white;
+        font-weight: bolder;
+        padding: 30px;
+        font-size: x-large;
+        justify-content: space-around;
+        width: 145vw;
+    }
+    .bars p{
+        margin-top: 10vh;
+        text-align: center;
+        margin-left: -30%;
+    }
+    .bit{
+        font-size: x-large;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 5%;
+        margin-left: 37vw;
+    }
+    .users{
+        display: flex;
+        flex-direction: row;
+        margin-left: 200px;
+        margin-right: 30px;
+        align-items: center;
+    }
+    .earn{
+        border: 100vw;
+        background-color: #eeeefc;;
+        display: flex;
+        flex-direction: row;
+        font-weight: bolder;
+        padding: 50px;
+        margin-top: 3%;
+        width: 140vw;
+    }
+    .earn p{
+        color:grey ;
+        width:66.7vw;
+    }
+    .Download{
+        border: 30%;
+        width: 1000px;
+        height: 300px;
+        background-color: black;
+        color: white !important;
+        margin-left: 20vw;
+        border-radius: 10px;
+        margin-top: 5vh;
+        padding: 98px 10px;
+        line-height: 3vh;
+        display: flex;
+        line-height: 5vh;
+    }
+    .left{
+        margin-left: 20px;
+        margin-top: -4vh;
+    }
+    .cta-btn1{
+        display: flex;
+        margin-right: 10px;
+        margin-left: 4px;
+        padding: 5px 20px;
+        border-radius: 10px;
+        background-color: #3333336c;
+        margin-bottom: 10px;
+        border: none;
+    }
+    .cta-btn2{
+        width: px;
+        display: flex;
+        padding: 5px 30px;
+        background-color: #3333336c;
+        border-radius: 10px;
+        margin-right: 10px;
+        color: white;
+        border: none;
+    }
+    .links{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 40px;
+    }
+}
+@media (max-width: 830px) and (min-width: 375px){
+    body{
+        width: 100%;
+        font-size: 20px;
+    }
+    .Bars{
+        border: 10px;
+        height: 3vh;
+        background-color: #2c5597;
+        float: left;
+        padding: 10px 10px;
+    }    
+    .Bars li{
+        border: solid;
+        color: white;
+        border-radius: 15px;
+        width: 1vw;
+        background-color: white;
+        padding: 0px 10px;
+        margin-bottom: 5px;
+        height: 0px;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 20px;
+        padding-left: 70px;
+        padding-right:70px;
+        position: fixed;
+        margin-top: -17vh;
+        background-color: white;
+        width: 100%
+    }
+    nav ul{
+        display: flex;
+        margin-left: 20vw;
+    }
+    nav li{
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        list-style: none;
+    }
+    .btn1{
+        padding: 14px 50px;
+        border-style: none;
+        border-radius: 5px;
+        margin-right: 50px;
+        width: 15vw;
+        height: 5vh;
+    }
+    
+    .btn2{
+        padding: 14px 50px;
+        border: 1px solid;
+        background-color: #2c5597;
+        border-radius: 5px;
+        color: #ffff;
+        width: 18vw;
+        height: 5vh;
+    }
+    .sales{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 45vw;
+    }
+    .buy{
+        border: 80px;
+        background-color: white;
+        box-shadow:5px 5px  10px 3px #f3f3f3;
+        height:450px;
+        width:500px;
+        border-radius:5px;
+        margin-top: 80px;
+        margin-right: 80px;
+        text-indent: 5%;
+        line-height: 30px;
+    }
+    .sells{
+        border: 80px;
+        background-color: white;
+        box-shadow:5px 5px  10px 3px #f3f3f3;
+        height:450px;
+        width:450px;
+        border-radius:5px;
+        margin-top: 80px;
+        margin-right: 80px;
+        text-indent: 5%;
+        line-height: 30px;
+    }
+    .buy input{
+        margin-top: 10px;
+        padding: 10px 15px;
+        border: none;
+        background-color: #e6e4e4;
+        border-radius: 5px;
+        float: left;
+        width:320px;
+        margin-left: 10px;
+    }
+    .sells input{
+        margin-top: 10px;
+        padding: 10px 15px;
+        border: none;
+        background-color: #e6e4e4;
+        border-radius: 5px;
+        float: left;
+        width:320px;
+        margin-left: 10px;
+    }
+    .buy1{
+        margin-top: 10px;
+        padding: 10px 15px;
+        border: none;
+        background-color: #e6e4e4;
+        border-radius: 5px;
+        float: left;
+        width:350px;
+        margin-left: 10px;
+    }
+    .buy button{
+        padding: 10px 15px;
+        width: 350px;
+        border: none;
+        background-color: #33b433;
+        color: white;
+        border-radius: 5px;
+        margin-right: 20px;
+    }
+    .sells button{
+        padding: 10px 15px;
+        width: 350px;
+        border: none;
+        background-color: red;
+        color: white;
+        margin-right: 20px;
+        border-radius: 5px;
+    }
+    .receive{
+        margin-top: 50px;
+       font-weight: bold;
+       margin-left: 27vw;
+    }
+    .vendor{
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 30vw;
+    }
+    .Vendors{
+        display:  flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 30px 35px;
+        margin-left: 47vw;
+    }
+    .box1{
+        height: 300px;
+        width: 350px;
+        border: 90px;
+        background-color: white;
+        box-shadow:5px 5px  10px 3px #f3f3f3;
+        padding: 10px 35px;
+        margin-right: 70px;
+        border-radius: 5px;
+    }
+    .box2{
+        height: 300px;
+        width: 350px;
+        border: 90px;
+        background-color: white;
+        box-shadow:5px 5px  10px 3px #f3f3f3;
+        padding: 10px 35px;
+        margin-right: 70px;
+        border-radius: 5px;   
+    }
+    .load{
+        padding: 15px 15px;
+        font-weight: bold;
+        margin-top: 3%;
+        width: 500px;
+        border: none;
+        margin-left: 40%;
+        border-radius: 5px;
+        color: #2c5597;
+        background-color: rgb(218, 218, 230);
+        cursor: pointer;
+    }
+    .link{
+        color: grey;
+        text-align: center;
+        font-weight: bold;
+        font-size: x-large;
+        margin-left: 35vw;
+    }
+    .bars{
+        background-color: #2c5597;
+        display: flex;
+        flex-direction: row;
+        color: white;
+        font-weight: bolder;
+        padding: 30px;
+        font-size: x-large;
+        justify-content: space-around;
+        width: 145vw;
+    }
+    .bars p{
+        margin-top: 10vh;
+        text-align: center;
+        margin-left: -30%;
+    }
+    .bit{
+        font-size: x-large;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 5%;
+        margin-left: 37vw;
+    }
+    .users{
+        display: flex;
+        flex-direction: row;
+        margin-left: 200px;
+        margin-right: 30px;
+        align-items: center;
+    }
+    .earn{
+        border: 100vw;
+        background-color: #eeeefc;;
+        display: flex;
+        flex-direction: row;
+        font-weight: bolder;
+        padding: 50px;
+        margin-top: 3%;
+        width: 140vw;
+    }
+    .earn p{
+        color:grey ;
+        width:66.7vw;
+    }
+    .Download{
+        border: 30%;
+        width: 1000px;
+        height: 300px;
+        background-color: black;
+        color: white !important;
+        margin-left: 20vw;
+        border-radius: 10px;
+        margin-top: 5vh;
+        padding: 98px 10px;
+        line-height: 3vh;
+        display: flex;
+        line-height: 5vh;
+    }
+    .left{
+        margin-left: 20px;
+        margin-top: -4vh;
+    }
+    .cta-btn1{
+        display: flex;
+        margin-right: 10px;
+        margin-left: 4px;
+        padding: 5px 20px;
+        border-radius: 10px;
+        background-color: #3333336c;
+        margin-bottom: 10px;
+        border: none;
+    }
+    .cta-btn2{
+        width: px;
+        display: flex;
+        padding: 5px 30px;
+        background-color: #3333336c;
+        border-radius: 10px;
+        margin-right: 10px;
+        color: white;
+        border: none;
+    }
+    .links{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 40px;
+    }
+}

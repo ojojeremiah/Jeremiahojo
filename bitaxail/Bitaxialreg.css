@@ -1,0 +1,86 @@
+body{
+    background-color: #c5c5c5;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.main{
+    background-color: white;
+    padding: 10px 20px;
+    margin-left: 11vw;
+    margin-top: 15vh;
+    width: 75vw;
+    height: 70vh;
+    border-radius: 10px;
+}
+.main h1{
+    color:#2c5597;
+}
+.main img{
+    float: right;
+    width: 30vw;
+}
+
+.notes{
+    margin-left: 15vw;
+    line-height: 3vh;
+}
+.notes h1{
+    color: black;
+}
+.notes input{
+    display: flex;
+    flex-direction: row;
+    border: none;
+    border-radius: 5px;
+    height: 3vh;
+    width:20vw;
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    margin-bottom: 2vh;
+}
+.rem{
+    display: flex;
+}
+.rem input{
+    margin-left: -9vw;
+    height: 2vh;
+    margin-top: 1vh;
+}
+.rem p{
+    margin-top: 5px;
+    margin-left: -8vw;
+}
+.notes a{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    margin-top: 3vh;
+    margin-left: -5vh;
+    display: flex;
+    flex-direction: column;
+}
+.sign{
+    border: none;
+    padding: 20px 20px;
+    width: 21vw;
+    background-color: #33339b;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1vh;
+}
+.sub{
+    border: none;
+    padding: 3px 10px;
+    width: 21vw;
+    background-color: #33339b;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 3vh;
+    height: 5vh;
+    border: solid;
+    background-color: white;
+}
